@@ -33,7 +33,7 @@ class _AboutUsState extends State<AboutUs> {
                 child: Column(
                   children: [
                     Image.asset(
-                      '/about-us.png',
+                      'assets/about-us.png',
                       height: 150,
                       fit: BoxFit.contain,
                     ),
@@ -145,7 +145,7 @@ class _AboutUsState extends State<AboutUs> {
                                     fontWeight: FontWeight.bold),
                               ),
                               Text(
-                                'framework aplikasi mobile yang diciptakan Google. ',
+                                'framework aplikasi mobile',
                                 maxLines: 2,
                                 overflow: TextOverflow.ellipsis,
                                 style: GoogleFonts.roboto(),
@@ -193,7 +193,7 @@ class _AboutUsState extends State<AboutUs> {
                                     fontWeight: FontWeight.bold),
                               ),
                               Text(
-                                'libray JavaScript yang dibuat oleh Facebook',
+                                'libray JavaScript',
                                 maxLines: 2,
                                 overflow: TextOverflow.ellipsis,
                                 style: GoogleFonts.roboto(),
@@ -241,7 +241,7 @@ class _AboutUsState extends State<AboutUs> {
                                     fontWeight: FontWeight.bold),
                               ),
                               Text(
-                                'Go bahasa pemrograman yang dibuat di Google',
+                                'bahasa pemrograman Google',
                                 maxLines: 2,
                                 overflow: TextOverflow.ellipsis,
                                 style: GoogleFonts.roboto(),
